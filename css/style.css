@@ -1,0 +1,132 @@
+body{
+    background-color: chartreuse;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    line-height: 70px;
+    text-shadow: 1px 5px 5px grey;
+    animation-name: title;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+ @keyframes title{
+    1%{
+        background-color: red;
+        color: green;
+        font-size: 70px;
+    }
+    50%{
+        background-color: green;
+        color: red;
+        font-size: 80px;
+    }
+
+    100%{
+        background-color: blue;
+        color: yellow;
+        font-size: 70px;
+    } 
+
+}
+
+
+.walk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    line-height: 70px;
+    text-shadow: 1px 5px 5px grey;
+    animation-name: walk;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;   
+}
+
+
+@keyframes walk{
+    1%{
+        background-color: red;
+        color: green;
+        font-size: 70px;
+    }
+    50%{
+        background-color: green;
+        color: red;
+        font-size: 80px;
+    }
+
+    100%{
+        background-color: blue;
+        color: yellow;
+        font-size: 70px;
+    } 
+
+}
+
+
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    line-height: 70px;
+    text-shadow: 1px 5px 5px grey;
+    animation-name: error;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;   
+}
+
+@keyframes error{
+    1%{
+        background-color: darkred;
+        font-size: 70px;
+    }
+
+    50%{
+        background-color: red;
+        color: green;
+        font-size: 80px;
+    }
+    100%{
+        background-color: darkred;
+        color: red;
+        font-size: 70px;
+    }
+
+}
+
+
+.errorwalk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    line-height: 70px;
+    text-shadow: 1px 5px 5px grey;
+    animation-name: errorwalk;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;      
+}
+
+@keyframes errorwalk{
+    1%{
+        background-color: red;
+    }
+
+    50%{
+        background-color: darkred;
+        color: red;
+        font-size: 80px;
+    }
+    100%{
+        background-color: red;
+        color: green;
+        font-size: 70px;
+    }
+
+}
