@@ -73,7 +73,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 70px;
     text-shadow: 1px 5px 5px grey;
     animation-name: error;
@@ -84,18 +84,18 @@ body{
 @keyframes error{
     1%{
         background-color: darkred;
-        font-size: 70px;
+        font-size: 50px;
     }
 
     50%{
         background-color: red;
         color: green;
-        font-size: 80px;
+        font-size: 70px;
     }
     100%{
         background-color: darkred;
         color: red;
-        font-size: 70px;
+        font-size: 50px;
     }
 
 }
@@ -105,7 +105,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 70px;
     text-shadow: 1px 5px 5px grey;
     animation-name: errorwalk;
@@ -116,17 +116,18 @@ body{
 @keyframes errorwalk{
     1%{
         background-color: red;
+        font-size: 50px;
     }
 
     50%{
         background-color: darkred;
         color: red;
-        font-size: 80px;
+        font-size: 70px;
     }
     100%{
         background-color: red;
         color: green;
-        font-size: 70px;
+        font-size: 50px;
     }
 
 }
