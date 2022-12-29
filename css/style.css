@@ -116,18 +116,18 @@ body{
 @keyframes errorwalk{
     1%{
         background-color: red;
-        font-size: 50px;
+        font-size: 70px;
     }
 
     50%{
         background-color: darkred;
         color: red;
-        font-size: 70px;
+        font-size: 50px;
     }
     100%{
         background-color: red;
         color: green;
-        font-size: 50px;
+        font-size: 70px;
     }
 
 }
