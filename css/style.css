@@ -1,5 +1,5 @@
 body{
-    background-color: chartreuse;
+    background-color: black;
 }
 
 .price{
@@ -8,7 +8,7 @@ body{
     justify-content: center;
     font-size: 70px;
     line-height: 70px;
-    text-shadow: 1px 5px 5px grey;
+    text-shadow: 5px 5px 8px grey;
     animation-name: title;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -16,18 +16,17 @@ body{
 
  @keyframes title{
     1%{
-        background-color: red;
+ 
         color: green;
         font-size: 70px;
     }
     50%{
-        background-color: green;
+
         color: red;
         font-size: 80px;
     }
 
     100%{
-        background-color: blue;
         color: yellow;
         font-size: 70px;
     } 
@@ -50,18 +49,17 @@ body{
 
 @keyframes walk{
     1%{
-        background-color: red;
+
         color: green;
         font-size: 70px;
     }
     50%{
-        background-color: green;
+
         color: red;
         font-size: 80px;
     }
 
     100%{
-        background-color: blue;
         color: yellow;
         font-size: 70px;
     } 
@@ -83,17 +81,17 @@ body{
 
 @keyframes error{
     1%{
-        background-color: darkred;
+
         font-size: 50px;
     }
 
     50%{
-        background-color: red;
+
         color: green;
         font-size: 70px;
     }
     100%{
-        background-color: darkred;
+  
         color: red;
         font-size: 50px;
     }
@@ -115,17 +113,17 @@ body{
 
 @keyframes errorwalk{
     1%{
-        background-color: red;
+
         font-size: 70px;
     }
 
     50%{
-        background-color: darkred;
+
         color: red;
         font-size: 50px;
     }
     100%{
-        background-color: red;
+
         color: green;
         font-size: 70px;
     }
